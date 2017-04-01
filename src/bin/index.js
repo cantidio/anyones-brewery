@@ -3,6 +3,7 @@ var togglePin = require('../lib/toggle-pin');
 
 gpio.on('change', function(channel, value) {
     console.log('Channel ' + channel + ' value is now ' + value);
+    console.log(gpio.read(channel, (err,value) => console.log(err,value) ));
 });
 
 gpio.setup(16, gpio.DIR_OUT, function() {
