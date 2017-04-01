@@ -1,0 +1,14 @@
+{
+  "name": "anyones-brewery",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rpi-gpio": "^0.7.0"
+  }
+}
