@@ -1,3 +1,5 @@
+var gpio = require('rpi-gpio');
+
 function togglePin(pin, interval) {
   let on = true;
   return setInterval(()=>{
